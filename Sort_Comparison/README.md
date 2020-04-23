@@ -1,4 +1,4 @@
-#Sort Comparison
+# Sort Comparison
 
 ### This sort program aims to sort an array of integers, via two sort methods: bitonic sort and bubble sort.
 
