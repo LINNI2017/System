@@ -15,3 +15,8 @@
 
 ### Sort Comparison
 - Sort an array of integers via `bitonic sort` and `bubble sort`
+
+### Euchre Game
+- Implement two-handed euchre game
+- Build a dynamic deck of cards
+- Handle game between human player and default computer player
