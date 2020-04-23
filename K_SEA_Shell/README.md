@@ -1,6 +1,15 @@
 # Mini Shell
 
-### My Command
+### Supported Command
+- help
+	- `> help`
+	- print out help manual
+- exit
+	- `> exit`
+	- exit the shell
+- cd
+	- `> cd path-name`
+	- `go the given path`
 - pwd 
 	- `> pwd`
 	- `print out the current working directory`

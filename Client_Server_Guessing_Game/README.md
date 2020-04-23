@@ -1,5 +1,7 @@
 # Client Server Guessing Game
 
+### Implement a guessing game between client and server
+
 ### Clint.py style check
 ```
 ./clint.py *.c
