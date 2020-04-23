@@ -1,4 +1,6 @@
-#### This sort program aims to sort an array of integers, via two sort methods: bitonic sort and bubble sort.
+#Sort Comparison
+
+### This sort program aims to sort an array of integers, via two sort methods: bitonic sort and bubble sort.
 
 - Use `make` to build code, use `./sort` to run code, use `make clean` to clean directory after using `make` many times, you might see some error like `make: Nothing to be done for 'all'.`
 
@@ -26,6 +28,21 @@
 	- `stdio.h`
 	- `time.h`
 	- `sort.h`
+
+### Discussion
+	- For simple sorting part, I sorted an array with 8 integers.
+	- For doing experiment part, I sorted three groups of arrays of three kinds,
+	  includes small, median and large sizes.
+		- Specifically, the size of each array is a power of 2, a random integer in a specific range.
+		- For the small size array, size is in range [2^1, 2^5].
+		- For the median size array, size is in range [2^5, 2^10].
+		- For the large size array, size is in range [2^10, 2^15].
+	- The given pseudo code of sort is a kind of bitonic sort, it does O(N(logN)^2) comparisons.
+	- The compared bubble sort does O(N^2) comparisons.
+	- For bubble sort, the best case[lower bound] does O(N) comparisons, the worst case[upper bound] does O(N^2) comparisons.
+	- For bitonic sort, the best case[lower bound] does O((logN)^2) comparisons, the worst case[upper bound] does O(N(logN)^2) comparisons.
+	- The hardest part of this assignment is debugging the codes I have written, segment fault kept me debug line by line to find the bug source. Specifically, we are using char* to represent String in C, that's some new syntax I need to get familiar with.
+
 
 - Output example:
 
