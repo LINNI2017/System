@@ -2,8 +2,10 @@
 
 ### Supported Command
 - help
+	- `> help`
 	- print out help manual
 - exit
+	- `> exit`
 	- exit the shell
 - cd
 	- `> cd path-name`
