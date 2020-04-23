@@ -1,6 +1,9 @@
 # Mini Shell
 
-### My Command
+### Supported Command
+- help
+- exit
+- cd
 - pwd 
 	- `> pwd`
 	- `print out the current working directory`
