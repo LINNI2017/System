@@ -1,4 +1,4 @@
-# System Practice
+# System Application
 
 ### Client Server Guessing Game
 - Create the client and the server
@@ -20,3 +20,7 @@
 - Implement two-handed euchre game
 - Build a dynamic deck of cards
 - Handle game between human player and default computer player
+
+### T9 Predictive Text
+- Implement T9 predictive text
+- Translate number sequences to words via trie data structure
