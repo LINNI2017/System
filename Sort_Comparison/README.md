@@ -1,6 +1,6 @@
 # Sort Comparison
 
-### This sort program aims to sort an array of integers, via two sort methods: bitonic sort and bubble sort.
+### Sort an array of integers, via two sort methods: bitonic sort and bubble sort.
 
 - Use `make` to build code, use `./sort` to run code, use `make clean` to clean directory after using `make` many times, you might see some error like `make: Nothing to be done for 'all'.`
 
