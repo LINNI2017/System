@@ -12,3 +12,6 @@
 ### Multithreaded Searching Number
 - Implement searching number
 - Create multi-threaded process to speed up searching
+
+### Sort Comparison
+- Sort an array of integers via `bitonic sort` and `bubble sort`
